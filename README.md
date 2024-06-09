@@ -29,11 +29,21 @@ Hnefatafl is played on an 11x11 board, with one player controlling the defending
 
 ## How to Use the App
 1. **Installation**: Clone the repository to your local machine using Git.
+  ```sh
+  git clone https://github.com/ShalomOfstein/Viking_Chess_OOP_task_1.git
+  ```
 2. **Compilation**: Compile all Java files in the repository using a Java compiler.
+```sh
+javac *.java
+  ```
 3. **Execution**: Run the main Java file to start the game.
+```sh
+java Main
+
+  ```
 4. **Gameplay**: Follow the on-screen instructions to take turns moving your pieces and attempting to achieve victory.
 5. **Undo Move**: If you make a mistake, use the undo button to revert your last move.
-6. **Winning**: The game will declare a winner when one player achieves victory according to the rules of Hnefatafl.
+6. **Winning**: The game will declare a winner and print out statistics to the terminal, when one player achieves victory according to the rules of Hnefatafl. 
 
 ## Additional Notes
 - This project follows object-oriented principles to separate concerns and facilitate maintainability. It utilizes classes and interfaces to encapsulate game logic, player behavior, and graphical rendering.
